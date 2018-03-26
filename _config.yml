@@ -7,3 +7,6 @@ url: "http://julie-yoga.com"
 paginate: 3
 
 permalink: pretty
+
+exclude:
+  - CNAME
