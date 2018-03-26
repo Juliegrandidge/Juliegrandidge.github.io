@@ -1,0 +1,44 @@
+<footer class="container">
+  <div class="row">
+    <div class="col-sm-8">
+      <p>{{- site.description | escape -}}</p>
+    </div>
+    <div class="col-sm-4">
+      {% comment %}
+      <!-- TODO: create footer navigation -->
+      <!--<div class="footer-col-wrapper">-->
+      <!--<div class="footer-col footer-col-1">-->
+      <!--<ul class="contact-list">-->
+      <!--<li class="p-name">-->
+      <!--{%- if site.author -%}-->
+      <!--{{ site.author | escape }}-->
+      <!--{%- else -%}-->
+      <!--{{ site.title | escape }}-->
+      <!--{%- endif -%}-->
+      <!--</li>-->
+      <!--{%- if site.email -%}-->
+      <!--<li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>-->
+      <!--{%- endif -%}-->
+      <!--</ul>-->
+      <!--</div>-->
+      {% endcomment %}
+    </div>
+  </div>
+
+  <div class="footer-col footer-col-2">
+    {%- include social.html -%}
+  </div>
+
+  <div class="text-right text-muted">
+    {%- assign firstPostYear = site.posts.last.date | date: "%Y" | default: '2018' -%}
+    {%- assign lastPostYear = site.posts.first.date | date: "%Y" | default: '2018' -%}
+
+    &copy; Julie Grandidge
+    {% if firstPostYear == lastPostYear %}
+      {{ firstPostYear }}
+    {% else %}
+      {{ firstPostYear }} &ndash; {{ lastPostYear }}
+    {% endif %}
+  </div>
+
+</footer>

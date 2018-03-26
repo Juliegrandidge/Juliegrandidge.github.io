@@ -1,8 +1,4 @@
-remote_theme: samanyougarg/hanuman
-plugins:
-  - jekyll-remote-theme
-
-title: Julie Grandidge - Yoga
+title: Julie Grandidge Yoga
 url: "http://julie-yoga.com"
 paginate: 3
 
@@ -10,3 +6,8 @@ permalink: pretty
 
 exclude:
   - CNAME
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules
