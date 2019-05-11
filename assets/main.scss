@@ -53,6 +53,14 @@ html, body, h1, h2, p {
       text-decoration: underline;
     }
   }
+
+  #ryt-logo {
+    position: absolute;
+    bottom: 1vh;
+    right: 1vw;
+
+    transform: translate(-50%, -50%);
+  }
 }
 
 #main::before {
