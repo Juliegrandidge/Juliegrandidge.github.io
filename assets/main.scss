@@ -1,7 +1,6 @@
 ---
 ---
-
-html, body, h1, h2 {
+html, body, h1, h2, p {
   margin: 0;
   padding: 0;
 }
@@ -21,10 +20,47 @@ html, body, h1, h2 {
     transform: translate(-50%, -50%);
     color: #333;
   }
+
+  h1 {
+    font-size: 7vw;
+    margin-bottom: 0.2em;
+
+    @media (max-width: 600px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  h2 {
+    font-size: 4vw;
+
+    @media (max-width: 600px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  p {
+    font-size: 1.5vw;
+
+    @media (max-width: 600px) {
+      font-size: 1rem;
+      bottom: 2rem;
+    }
+
+    position: absolute;
+    bottom: 5vh;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+
+    a {
+      color: #333;
+      text-decoration: underline;
+    }
+  }
 }
 
 #main::before {
-  background: url(./img/backlit-meditating-meditation-1051838.jpg) no-repeat center;
+  background: url(/assets/img/backlit-meditating-meditation-1051838.jpg) no-repeat center;
   background-size: cover;
   position: absolute;
   height: 100%;
@@ -36,19 +72,4 @@ html, body, h1, h2 {
   left: 0;
 }
 
-h1 {
-  font-size: 7vw;
-  margin-bottom: 0.2em;
 
-  @media (max-width: 600px) {
-    font-size: 2.5rem;
-  }
-}
-
-h2 {
-  font-size: 4vw;
-
-  @media (max-width: 600px) {
-    font-size: 1.5rem;
-  }
-}
