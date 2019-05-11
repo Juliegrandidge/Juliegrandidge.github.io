@@ -23,18 +23,21 @@ html, body, h1, h2, p {
 
   h1 {
     font-size: 7vw;
-    margin-bottom: 0.2em;
+    margin-bottom: 1vw;
 
     @media (max-width: 600px) {
       font-size: 2.5rem;
+      margin-bottom: 0.2rem;
     }
   }
 
   h2 {
     font-size: 4vw;
+    margin-bottom: 1vw;
 
     @media (max-width: 600px) {
       font-size: 1.5rem;
+      margin-bottom: 0.2rem;
     }
   }
 
@@ -43,14 +46,7 @@ html, body, h1, h2, p {
 
     @media (max-width: 600px) {
       font-size: 1rem;
-      bottom: 2rem;
     }
-
-    position: absolute;
-    bottom: 5vh;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 0);
 
     a {
       color: #333;
