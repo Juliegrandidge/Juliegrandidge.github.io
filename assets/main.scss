@@ -1,5 +1,54 @@
 ---
 ---
 
-@import "variables";
-@import "bootstrap/scss/bootstrap";
+html, body, h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+
+  height: 100vh;
+  position: relative;
+
+  #tagline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+  }
+}
+
+#main::before {
+  background: url(./img/backlit-meditating-meditation-1051838.jpg) no-repeat center;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  font-size: 7vw;
+  margin-bottom: 0.2em;
+
+  @media (max-width: 600px) {
+    font-size: 2.5rem;
+  }
+}
+
+h2 {
+  font-size: 4vw;
+
+  @media (max-width: 600px) {
+    font-size: 1.5rem;
+  }
+}

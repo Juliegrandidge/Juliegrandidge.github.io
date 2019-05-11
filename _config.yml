@@ -1,6 +1,5 @@
-title: Julie Grandidge Yoga
+title: Julie Grandidge - Yoga Teacher
 url: "http://julie-yoga.com"
-paginate: 3
 
 permalink: pretty
 
@@ -10,4 +9,3 @@ exclude:
 sass:
   load_paths:
     - _sass
-    - node_modules
