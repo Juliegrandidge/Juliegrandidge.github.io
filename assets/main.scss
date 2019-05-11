@@ -1,6 +1,6 @@
 ---
 ---
-html, body, h1, h2, p {
+html, body, h1, h2, p, a, img {
   margin: 0;
   padding: 0;
 }
@@ -55,11 +55,17 @@ html, body, h1, h2, p {
   }
 
   #ryt-logo {
+    display: block;
+
     position: absolute;
     bottom: 1vh;
     right: 1vw;
 
     transform: translate(-50%, -50%);
+
+    img {
+      display: block;
+    }
   }
 }
 
