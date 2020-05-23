@@ -56,7 +56,7 @@
 	};
  
 	// Object containing all website meta info
-	var websiteMeta = {"archive-may-2020.html":"Archives for May 2020","34126fe98eeb237f2f940dcfca6e0d5c-5.html":"Downward Facing Dog (Adho Mukha Svanasana in Sanskrit) is probably the most common pose you will come across in your yoga classes, and is a great way "};
+	var websiteMeta = {"archive-may-2020.html":"Archives for May 2020","how-to-downward-dog.html":"Downward Facing Dog (Adho Mukha Svanasana in Sanskrit) is probably the most common pose you will come across in your yoga classes, and is a great way "};
  
 	// pageId must match the key in websiteMeta object
 	var url = window.location.pathname;
