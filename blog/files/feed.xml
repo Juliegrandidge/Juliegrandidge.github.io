@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+<title>My RSS Feed</title><link>https://julie-yoga.com/index.html</link><description>Hot News&#x21;</description><dc:language>en</dc:language><language>en</language><dc:date>2020-05-09T15:22:22+01:00</dc:date><admin:generatorAgent rdf:resource="http://www.realmacsoftware.com/" />
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+<lastBuildDate>Sat, 23 May 2020 14:52:07 +0100</lastBuildDate><item><title>How to: Downward Facing Dog</title><dc:subject>Blog</dc:subject><dc:date>2020-05-09T15:22:22+01:00</dc:date><link>https://julie-yoga.com/blog/files/34126fe98eeb237f2f940dcfca6e0d5c-5.html#unique-entry-id-5</link><guid isPermaLink="true">https://julie-yoga.com/blog/files/34126fe98eeb237f2f940dcfca6e0d5c-5.html#unique-entry-id-5</guid><content:encoded><![CDATA[<strong>Downward Facing Dog</strong> (<em>Adho Mukha Svanasana </em>in Sanskrit) is probably the most common pose you will come across in your yoga classes, and is a great way to lengthen out the back of the body. But often it can be challenging especially when you&rsquo;re new to yoga, or your shoulders or legs are tired, weak or tight. ]]></content:encoded></item></channel>
+</rss>
