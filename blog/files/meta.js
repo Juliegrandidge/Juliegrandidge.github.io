@@ -56,7 +56,7 @@
 	};
  
 	// Object containing all website meta info
-	var websiteMeta = {"archive-may-2020.html":"Archives for May 2020","how-to-downward-dog.html":"Downward Facing Dog (Adho Mukha Svanasana in Sanskrit) is probably the most common pose you will come across in your yoga classes, and is a great way "};
+	var websiteMeta = {"archive-may-2020.html":"Archives for May 2020","how-to-downward-dog.html":"Downward Facing Dog (Adho Mukha Svanasana in Sanskrit) is probably the most common pose you will come across in your yoga classes, and is a great way ","archive-june-2020.html":"Archives for June 2020","Sun-Salutations.html":"Sun salutations (Surya Namaskar in Sanskrit) are a great short practice by themselves, and form the basis of many vinyasa flow yoga classes. Getting t"};
  
 	// pageId must match the key in websiteMeta object
 	var url = window.location.pathname;
